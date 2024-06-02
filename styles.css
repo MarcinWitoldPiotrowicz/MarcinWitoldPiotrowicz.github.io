@@ -4,6 +4,7 @@ html, body {
     flex-direction: column;
     margin: 0;
     padding: 0;
+    padding-top: 30px; /* Add 30px padding to the top */
     font-family: Arial, sans-serif; /* Specify font family for all text */
     background-color: #f4f4f4;
     color: #333;
