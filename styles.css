@@ -18,6 +18,9 @@ html, body {
 
 /* Container styles */
 .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 600px; /* Limit the width of the container */
     width: 100%; /* Ensure container takes up full width of parent */
     margin-bottom: 20px; /* Add space between content and button */
