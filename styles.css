@@ -11,13 +11,22 @@ html, body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* 100% of viewport height */
+    min-height: 100vh; /* Ensure container takes up at least the height of the viewport */
+    padding: 20px; /* Add padding to create space around content */
+    box-sizing: border-box; /* Include padding in element's total width and height */
+}
+
+/* Container styles */
+.container {
+    max-width: 600px; /* Limit the width of the container */
+    width: 100%; /* Ensure container takes up full width of parent */
+    margin-bottom: 20px; /* Add space between content and button */
 }
 
 /* Button styles */
 .home-button {
     display: block; /* Ensure the button occupies the full width of the container */
-    margin-top: 20px; /* Add space between content and button */
+    width: 100%; /* Ensure button takes up full width of parent */
     padding: 10px 20px;
     background-color: #007bff; /* Blue color */
     color: #fff; /* White text */
@@ -29,4 +38,3 @@ html, body {
 .home-button:hover {
     background-color: #0056b3; /* Darker blue on hover */
 }
-
