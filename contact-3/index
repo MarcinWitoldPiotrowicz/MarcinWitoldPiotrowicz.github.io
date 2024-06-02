@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact details.">
+    <title>Contact</title>
+     <link rel="stylesheet" href="/styles.css"> <!-- Reference to your CSS file -->
+   </head>
+<body>
+         <div class="container">
+            <h1>Contact Marcin</h1>
+            <p>Marcin Piotrowicz; <br> Address: 16 Heatherbell Street; Belfast; BT5 4SP <br> Phone number: 075 4347 1402 <br> Website: MarcinPiotrowiczArchitect.com </p>
+            
+        </div>
+
+    <!-- Home button -->
+<a href="/" class="home-button">Home</a>
+    
+    </body>
+</html>
