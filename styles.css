@@ -47,7 +47,8 @@ html, body {
     background-color: #007bff; /* Blue color */
     color: #fff; /* White text */
     text-decoration: none;
-    border-radius: 5px;
+    max-width: 400px; /* Limit the width of the container */
+    border-radius: 10px;
     transition: background-color 0.3s ease;
 }
 
