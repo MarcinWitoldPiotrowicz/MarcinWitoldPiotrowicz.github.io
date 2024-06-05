@@ -51,6 +51,7 @@ html, body {
     max-width: 300px; /* Limit the width of the container */
     border-radius: 20px;
     transition: background-color 0.3s ease;
+    margin-bottom: 10px; /* Add margin between buttons */
 }
 
 .home-button:hover {
